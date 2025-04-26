@@ -1,5 +1,6 @@
 # Salifort Motors project proposal
 ## Overview
+Salifort Motors is seeking a method to use employee data to indicate what makes them leave the company.
 
 ## Milestones
 Milestones|Tasks|PACE stages
