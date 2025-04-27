@@ -12,6 +12,8 @@ By gaining these insights, the company can better understand the underlying issu
 
 ## Data Understanding
 Human Resources to survey a sample of employees to learn more about what might be driving turnover.
+<img alt=“Satisfaction-Tenure-Attrition” src=/images/satisfaction-tenure-left.png>
+<img alt=“WorkHours-Promotion-Attrition” src=/images/workHrs-promotion.png>
 
 > The data consisted of approximately 408k unique trips and 18 features. The features included information on trip duration and destination, vendor used, toll information, and payment type. The bar chart below shows the breakdown of how many generous tippers (>20%) versus non-generous tippers that exist in the data set. 
 
