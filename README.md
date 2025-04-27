@@ -27,4 +27,4 @@ Horizontal bar chart showing feature importance of random forest model.
 This model can benefit Taxi Drivers in knowing if they will be tipped generously or not; however, running a parametric model to determine how much each variable will influence the actual price of the tip. In the future, adding more information on a rider’s past tipping behavior may also be beneficial in helping the stakeholder address their business problem. 
 
 ---
-[Data](https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job-prediction?select=HR_comma_sep.csv "Provided by Kaggle")  |[Proposel]()  |[Python Notebook](https://www.kaggle.com/code/yvetteliuyang/attritionalertsystem "A link to the Kaggle Notebook. An .ipynb file is included in the files folder for reference.")  |[Presentation]()  
+[Data](https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job-prediction?select=HR_comma_sep.csv "Provided by Kaggle")  |[Proposel](/PACE_Strategy.md "")  |[Python Notebook](https://www.kaggle.com/code/yvetteliuyang/attritionalertsystem "A link to the Kaggle Notebook. An .ipynb file is included in the files folder for reference.")  |[Presentation]()  
