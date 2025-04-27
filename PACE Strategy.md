@@ -10,5 +10,5 @@ Milestones|Tasks|PACE stages
 3|Determine which models are most appropriate|Analyze,Construct
 4|Construct the model|Construct
 5|Confirm model assumptions|Analyze, Construct
-6|Evaluate model results|Construct, Execute
+6|Evaluate model results|Construct
 7|Interpret results and share actionable steps with stakeholders|Execute
