@@ -20,11 +20,16 @@ The lower chart highlights the relationship between monthly work hours and promo
 Since the satisfaction level might introduce data leakage, a new feature, 'overworked', was created to substitute and reflect the relationship between working hours and satisfaction level.
 
 ## Modeling and Evaluation 
-A random forest model comprising 100 decision trees was used to determine feature importance in who would tip generously or not. The below plot shows that trip duration, distance, and the cost of a fare were the Top 3 most important factors in determining a generous tipper from a non-generous one. The overall model performed with 86% accuracy and 72% precision. 
+Logistic Regression, Decision Tree, and Random Forest models were developed for this project. Among them, the Random Forest model achieved the highest AUC score.
+The model identified evaluation score, number of projects, tenure, and overworked as the most important features for predicting employee attrition.
+The Random Forest model achieved a precision of 91.51%, recall of 88.76%, F1-score of 90.11%, and accuracy of 96.76%.
+<img alt=“Satisfaction-Tenure-Attrition” src=/images/feature-importances.png>
+Horizontal bar chart showing feature importance of decision tree and random forest model.
 
-Horizontal bar chart showing feature importance of random forest model.
 ## Conclusion
-This model can benefit Taxi Drivers in knowing if they will be tipped generously or not; however, running a parametric model to determine how much each variable will influence the actual price of the tip. In the future, adding more information on a rider’s past tipping behavior may also be beneficial in helping the stakeholder address their business problem. 
+Excessive workloads combined with insufficient recognition are key drivers of employee attrition.
+Retention of long-tenured, high-performing employees is critical to organizational stability.
+Implementing effective workload management and formal recognition strategies is recommended to mitigate attrition risks.
 
 ---
 [My name is Yvette](https://yvette-yl.github.io/ "Welcome to My Profile")  |  [Data](https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job-prediction?select=HR_comma_sep.csv "Provided by Kaggle")  |  [Proposel](/PACE_Strategy.md "")  |  [Python Notebook](https://www.kaggle.com/code/yvetteliuyang/attritionalertsystem "A link to the Kaggle Notebook. An .ipynb file is included in the files folder for reference.")  |  Presentation  | 
