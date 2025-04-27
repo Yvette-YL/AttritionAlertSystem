@@ -12,3 +12,5 @@ Milestones|Tasks|PACE stages
 5|Confirm model assumptions|Analyze,Construct
 6|Evaluate model results|Construct
 7|Interpret results and share actionable steps with stakeholders|Execute
+---
+[My name is Yvette](https://yvette-yl.github.io/ "Welcome to My Profile")  | [Project Overview](/README.md "Back to overview page")
