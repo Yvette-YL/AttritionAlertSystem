@@ -32,4 +32,4 @@ Retention of long-tenured, high-performing employees is critical to organization
 Implementing effective workload management and formal recognition strategies is recommended to mitigate attrition risks.
 
 ---
-[My name is Yvette](https://yvette-yl.github.io/ "Welcome to My Profile")  |  [Data](https://www.kaggle.com/datasets/mfaisalqureshi/hr-analytics-and-job-prediction?select=HR_comma_sep.csv "Provided by Kaggle")  |  [Proposel](/PACE_Strategy.md "")  |  [Python Notebook](https://www.kaggle.com/code/yvetteliuyang/attritionalertsystem "A link to the Kaggle Notebook. An .ipynb file is included in the files folder for reference.")  |  Presentation  | 
+[My name is Yvette](https://yvette-yl.github.io/ "Welcome to My Profile")  |  [Proposel](/PACE_Strategy.md "")  |  [Python Notebook](https://www.kaggle.com/code/yvetteliuyang/attritionalertsystem "A link to the Kaggle Notebook. An .ipynb file is included in the files folder for reference.")  |  Presentation  | 
