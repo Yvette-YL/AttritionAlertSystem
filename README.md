@@ -4,21 +4,20 @@ A employee retention risk alert model for HR department
 ## Overview 
 The goal of this project was to develop a model that enables the client’s company to predict whether an employee is likely to leave, as well as to uncover the key factors contributing to their resignation.
 
-
->a multiple linear regression and random forest model to predict high rider gratuity or not. This project utilized yellow taxi trips taken in New York City during 2017. The final random forest model performed with 86% accuracy and 72% precision determining what features were most important in separating low tippers from high tippers. Based on the model, the duration, distance, and cost of the trip were most influential in determining a generous tipper (>20%) vs a non-generous one (<20%). 
+This project utilized data from a survey conducted by the HR department, which sampled employees. The final **Random Forest prediction model** achieved an AUC of 93.56%, precision of 91.51%, recall of 88.76%, F1-score of 90.11%, and accuracy of 96.76%. The model identified **`last_evaluation`**, **`number_project`**, **`tenure`**, and **`overworked`** as the most important factors influencing employees' decisions to stay or leave the company.
 
 ## Business Understanding 
 By gaining these insights, the company can better understand the underlying issues and take proactive steps to improve employee retention and job satisfaction, and save money and time training new employees. 
 
 ## Data Understanding
-Human Resources to survey a sample of employees to learn more about what might be driving turnover.
+The dataset consisted of approximately 15,000 survey responses and 10 features. Among these, 3,000 were identified as duplicates and were dropped for future model building. The features included information on employees' working hours, tenure, salary, promotion status, satisfaction level, and last evaluation score. Approximately 16% of the data came from employees who had already left the company.
 <img alt=“Satisfaction-Tenure-Attrition” src=/images/satisfaction-tenure-left.png>
 <img alt=“WorkHours-Promotion-Attrition” src=/images/workHrs-promotion.png>
+The first chart shows the relationship between the number of projects and monthly work hours. It reveals that employees who are assigned too many projects, leading to an average work hour far above their peers, are more likely to leave the company.
 
-> The data consisted of approximately 408k unique trips and 18 features. The features included information on trip duration and destination, vendor used, toll information, and payment type. The bar chart below shows the breakdown of how many generous tippers (>20%) versus non-generous tippers that exist in the data set. 
+The second chart highlights the relationship between monthly work hours and promotion status, showing that employees who worked long hours but did not receive a promotion almost all left the company.
 
->Graph shows the percentage of Non-Generous and Generous Tippers.
-In connection to this, a feature was engineered to represent if a ride was taken during rush hour or not. Multiple redundant columns were dropped and reformatted into the proper data type.  
+Since the satisfaction level might introduce data leakage, a new feature, 'overworked', was created to substitute and reflect the relationship between working hours and satisfaction level.
 
 ## Modeling and Evaluation 
 A random forest model comprising 100 decision trees was used to determine feature importance in who would tip generously or not. The below plot shows that trip duration, distance, and the cost of a fare were the Top 3 most important factors in determining a generous tipper from a non-generous one. The overall model performed with 86% accuracy and 72% precision. 
