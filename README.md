@@ -12,7 +12,7 @@ By gaining these insights, the company can better understand the underlying issu
 ## Data Understanding
 The dataset consisted of approximately 15,000 survey responses and 10 features. Among these, 3,008 were identified as duplicates and were dropped for future model building. The features included information on employees' working hours, tenure, salary, promotion status, satisfaction level, and last evaluation score. Approximately 16% of the data came from employees who had already left the company.
 <img alt=“Satisfaction-Tenure-Attrition” src=/images/workHrs-projectNum-left.png>
-<img alt=“WorkHours-Promotion-Attrition” src=/images/workHrs-promotion.png>
+<img alt=“WorkHours-Promotion-Attrition” src=/images/promotion-workHrs.png>
 The upper two charts show the relationship between the number of projects and monthly work hours. They reveal that employees who are assigned too many projects, resulting in an average work hour significantly higher than their peers, are more likely to leave the company.
 
 The lower chart highlights the relationship between monthly work hours and promotion status, showing that employees who worked long hours but did not receive a promotion almost all left the company.
